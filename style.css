@@ -1,41 +1,43 @@
 #img1{
-  width:300px;
-  border-radius:50%; 
-    
+    width: 300px;
+    border-radius: 50%; 
+    height:250px;
 }
 
-body{
-  text-align:center; 
-  background:linear-gradient(#9FA8DA 20%,#DCEDC8 100%);
-  background-repeat:no-repeat;
+body {
+    text-align: center;
+    background: linear-gradient(#9FA8DA 20%, #DCEDC8 100%);
+    background-repeat: no-repeat;
 }
-.line{
-  width:70px;
-  height:6px;
-  background-color:black;
-  margin: 8px auto;
+
+.line {
+    width: 70px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
 }
-#bio{
-  font-size:20px;
-    background-color:cornsilk;
-    
-    
-    
+
+#bio {
+    font-size: 20px;
+    background-color: azure;
 }
-h1{
-  font-size:20px;
-  text-shadow:2px 1px #F1F8E9
+
+h1 {
+    font-size: 20px;
+    text-shadow: 2px 1px #F1F8E9;
 }
-.menu{
-    list-style:none;
+
+.menu {
+    list-style: none;
     font-family: cursive;
-    float:right;
-    top:10px;
+    float: right;
+    top: 10px;
     cursor: pointer;
     right: 60px;
     color: blueviolet;
 }
-.link{
+
+.link {
     height: 6px;
     display: inline;
     width: 70px;
@@ -46,10 +48,18 @@ h1{
     padding-top: 5px;
 }
 
-.link:hover{
+.link:hover {
     background-color: azure;
 }
-#heading{
-   font-family: 'Dancing Script', fantasy;
-    font-family: fantasy
+
+#heading {
+    font-family: 'Dancing Script', fantasy;
+    font-family: fantasy;
+}
+
+#welcome{
+    text-align:center;
+}
+html{
+    scroll-behavior: smooth;
 }
