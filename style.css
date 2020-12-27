@@ -1,115 +1,62 @@
-body{
-    text-align: center;
-    background: linear-gradient( #16073E 0%,#EDE7FC 100%);
-}
-
-img{
-  width:100px;
-  height:100px;
-    border-radius: 50%;
-}
-
-#myname{
-   font-family: 'Courgette', cursive;
-}
-#welcome{
-     padding:70px;
-    text-align:center:
-}
-h1{
-  
-  font-size:18px;
-}
-p{
-  font-size:18px;
-  color:#6A1B9A;
-    
-}
-h2{
-  font-size:20px;
-  color:#003487;
-}
-.line{
-    height: 6px;
-    background-color: black;
-    width:70px;
-    margin:8px auto;
-}
-#bio{
-    padding:20px;
-    font-size:42;
-    background:pink;
-}
-.menu{
-   list-style: none;
-    font-family:cursive;
-   float:right;
-    top:10px;
-    right:30px;
-    cursor: pointer;
-    color:black;
-}
-.menu a{
-    color:black !important;
-}
-
-
-.link{
-    color:crimson;
-    display: inline;
-    padding-top:5px;
-    padding-left:9px;
-    padding-right:9px;
-    padding-bottom: 5px;
-}
-   .link:hover{
-    background-color:beige;
-}
-
-#My work a{
-    font-size: :30px;
-    
-}
-#References a{
-    font-size: :30px;
-    
-}
-#picture{
-    width:auto;
-    height:300px;
-   border-radius:0%;
-    
-    margin:20px;
-}
-.inspiration
+.container
 {
-  background: #373B44;  
-
- background: linear-gradient( #4286f4, #373B44); 
-padding-top:20px;
+    text-align: center;
+   
+}
+}
+#img1{
+  width: 100%;
+}
+.img2{
+    width: 250px;
+    height: 200px;
+}
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.modal-content
+{
+  margin-top: 100px;
 }
 
-img {
-transition: transform .2s;
-border: 10px solid #AAAAAA;
+.img_modal
+  {
+    display: inline-block;
+  }
+
+.modal-body
+{
+    text-align: center
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+#myCarousel
+{
+    background-color: red;
 }
 
-img:hover {
-    transform: scale(0.9);
+#myCarousel img
+{
+    height: 350px;
+       }
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
 }
 
-#contact a{
-    padding-top: 30px;
-}
 
-#id {
-    font-size: 30px;
-}
-#id1{
-    font-size: 30px;
-}
-#contact{
-    background: linear-gradient( #713B94 0%,#3B946C 100%);
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
