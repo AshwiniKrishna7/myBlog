@@ -1,65 +1,103 @@
-#img1{
-    width: 300px;
-    border-radius: 50%; 
-    height:250px;
-}
-
-body {
+body{
     text-align: center;
-    background: linear-gradient(#9FA8DA 20%, #DCEDC8 100%);
-    background-repeat: no-repeat;
+    background: linear-gradient( #16073E 0%,#EDE7FC 100%);
 }
 
-.line {
-    width: 70px;
+img{
+  width:100px;
+  height:100px;
+    border-radius: 50%;
+}
+
+#myname{
+   font-family: 'Courgette', cursive;
+}
+#welcome{
+     padding:70px;
+    text-align:center:
+}
+h1{
+  
+  font-size:18px;
+}
+p{
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-size:20px;
+  color:#003487;
+}
+.line{
     height: 6px;
     background-color: black;
-    margin: 8px auto;
+    width:70px;
+    margin:8px auto;
 }
-
-#bio {
-    font-size: 20px;
-    background-color: azure;
+#bio{
+    padding:20px;
+    font-size:42;
+    background:pink;
 }
-
-h1 {
-    font-size: 20px;
-    text-shadow: 2px 1px #F1F8E9;
-}
-
-.menu {
-    list-style: none;
-    font-family: cursive;
-    float: right;
-    top: 10px;
+.menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
     cursor: pointer;
-    right: 60px;
-    color: blueviolet;
+    color:black;
+}
+.menu a{
+    color:black !important;
 }
 
-.link {
-    height: 6px;
+
+.link{
+    color:crimson;
     display: inline;
-    width: 70px;
-    margin: 8px auto;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
     padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 5px;
+}
+   .link:hover{
+    background-color:beige;
 }
 
-.link:hover {
-    background-color: azure;
+#My work a{
+    font-size: :30px;
+    
+}
+#References a{
+    font-size: :30px;
+    
+}
+#picture{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    
+    margin:20px;
+}
+.inspiration
+{
+  background: #373B44;  /* fallback for old browsers */
+
+ background: linear-gradient( #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top:20px;
 }
 
-#heading {
-    font-family: 'Dancing Script', fantasy;
-    font-family: fantasy;
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
 }
 
-#welcome{
-    text-align:center;
+img:hover {
+    transform: scale(0.9);
 }
-html{
-    scroll-behavior: smooth;
+
+body{
+    text-align: center;
 }
