@@ -83,9 +83,9 @@ h2{
 }
 .inspiration
 {
-  background: #373B44;  /* fallback for old browsers */
+  background: #373B44;  
 
- background: linear-gradient( #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background: linear-gradient( #4286f4, #373B44); 
 padding-top:20px;
 }
 
@@ -98,6 +98,18 @@ img:hover {
     transform: scale(0.9);
 }
 
-body{
-    text-align: center;
+#contact a{
+    padding-top: 30px;
+}
+
+#id {
+    font-size: 30px;
+}
+#id1{
+    font-size: 30px;
+}
+#contact{
+    background: linear-gradient( #713B94 0%,#3B946C 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
